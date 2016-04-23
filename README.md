@@ -7,6 +7,10 @@
 * 游戏有四个难度等级
 * 可以下载 sudoku.apk 玩玩试试！
 
+##游戏截图
+![sudoku](https://github.com/klsf/sudoku/blob/master/images/3.png?raw=true) 
+
 ##信息
+* Github:https://github.com/klsf/sudoku
 * 邮件(815856515#qq.com, 把#换成@)
 * QQ: 815856515
