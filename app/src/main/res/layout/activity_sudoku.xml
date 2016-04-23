@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/game_bg">
+        <RelativeLayout style="@style/titleLayout" android:background="@color/transparent">
+            <TextView style="@style/titleBtn"
+                android:id="@+id/btn_back"
+                android:text="@string/back"
+                android:drawableLeft="@drawable/back"
+                android:textColor="@color/white"/>
+            <TextView
+                android:id="@+id/sudoku_level"
+                style="@style/titleCenter"
+                android:text="@string/level_1"
+                android:textColor="@color/brown"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+            <Button
+                android:id="@+id/btn_restartGame"
+                style="@style/button"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="@drawable/button_success_selector"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dp"
+                android:text="@string/restartGame"/>
+            <Chronometer
+                android:id="@+id/chronometer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:format="%s"
+                android:textSize="30dp"
+                android:textColor="@color/chronometer"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <cc.klsf.sudoku.SudokuView
+        android:id="@+id/sudokuView"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent" />
+
+
+</LinearLayout>

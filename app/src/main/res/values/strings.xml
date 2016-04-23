@@ -1,0 +1,25 @@
+<resources>
+    <string name="back">返回</string>
+    <string name="app_name">数独游戏</string>
+    <string name="startGame">开始游戏</string>
+    <string name="restartGame">重新开始游戏</string>
+    <string name="reloadGame">重载数独</string>
+    <string name="timer">Time:</string>
+    <string name="help">帮助</string>
+    <string name="about">介绍</string>
+    <string name="checkVersion">检测更新</string>
+    
+    <string name="level_1">初级</string>
+    <string name="level_2">高级</string>
+    <string name="level_3">专家级</string>
+    <string name="level_4">大师级</string>
+
+    <string name="level_dialog">请选择你要挑战的难度</string>
+    <string name="finish_dialog">你太牛逼了！</string>
+    <string name="again">换一个</string>
+
+    <string name="nostart">未开始</string>
+    <string name="confirm">确认</string>
+    <string name="cancel">取消</string>
+    <string name="refresh">刷新</string>
+</resources>

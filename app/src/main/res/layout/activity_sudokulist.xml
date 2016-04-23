@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <RelativeLayout style="@style/titleLayout"
+        android:background="@color/white">
+        <TextView style="@style/titleBtn"
+            android:id="@+id/btn_back"
+            android:text="@string/back"
+            android:drawableLeft="@drawable/back_info" />
+        <TextView
+            android:id="@+id/sudoku_level"
+            style="@style/titleCenter"
+            android:text="@string/level_1"
+            />
+        <TextView
+            android:id="@+id/btn_refresh"
+            style="@style/titleBtn"
+            android:layout_alignParentRight="true"
+            android:text="@string/refresh"/>
+    </RelativeLayout>
+    <com.handmark.pulltorefresh.library.PullToRefreshGridView
+        android:id="@+id/sudoku_list"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/info"
+        android:numColumns="3"
+        android:horizontalSpacing="3dp"
+        android:verticalSpacing="3dp"
+        android:stretchMode="columnWidth"
+        android:gravity="center"/>
+
+
+
+</LinearLayout>

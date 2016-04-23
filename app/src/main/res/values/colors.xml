@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#ffffff</color>
+    <color name="gray">#c1c0c0</color>
+    <color name="brown">#d2592934</color>
+    <color name="success">#3c763d</color>
+    <color name="info">#2a88d5</color>
+    <color name="warning">#8a6d3b</color>
+    <color name="danger">#a94442</color>
+    <color name="transparent">#00000000</color>
+
+    <!--数独界面-->
+    <color name="chronometer">#a34949</color>
+    <color name="shudu_background">#ffe6f0ff</color>
+    <color name="shudu_hilite">#ffffff</color>
+    <color name="shudu_light">#64c6d4ef</color>
+    <color name="shudu_dark">#645668ef</color>
+    <color name="shudu_keyboard_bg">#1bc2b1</color>
+    <color name="shudu_keyboard_num">#dfe9d0</color>
+    <color name="shudu_keyboard_clear">#944907</color>
+    <color name="shudu_tile_selected">#d4caca</color>
+    <color name="shudu_keyboard_selected">#5fa137</color>
+    <color name="shudu_edit_num">#31c423</color>
+
+    <color name="dialog_title">#087ab8</color>
+    <color name="btn_level_1">#111111</color>
+
+
+
+</resources>
